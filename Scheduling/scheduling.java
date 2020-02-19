@@ -12,11 +12,11 @@ public class scheduling{
         }
         fcfs(file);
         process.resetProcess();
-        rr(file); 
+        //rr(file); 
         process.resetProcess();
-        uniProgram(file);
+        //uniProgram(file);
         process.resetProcess();
-        sjf(file);
+        //sjf(file);
     }
     public static void printVerboseRR(process[] processArray){
         if(process.verbose){String outPut = String.format("%-20s","Before Cycle\t" + process.cycles + ":");
